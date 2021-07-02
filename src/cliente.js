@@ -10,6 +10,6 @@ export default class Cliente{
         this._nombre=nuevoNombre
     }
     CalcularImpuesto(){
-        const resultado = ((this._impuestos.monto_bruto_anual - this._impuesto.deducciones)*0.21)
+        return (this._impuesto.monto_bruto_anual - this._impuesto.deducciones)*0.21
     }
 }
